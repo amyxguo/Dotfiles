@@ -1,10 +1,10 @@
-set tabstop=4
-imap ii <Esc>
-syntax on
-set number
-set ruler
-set showmatch
-set clipboard+=unnamed
-set mouse=a
-set virtualedit=onemore
-set background=dark
+set tabstop=4 "set tab to 4 spaces
+imap ii <Esc> "map escape key to ii
+syntax on "turn on syntax highlighting
+set number "set line numbers
+set ruler "show where cursor is located in file
+set showmatch "show matching parenthesis, bracket, or comment opening 
+set clipboard+=unnamed "use same clipboard as outside of vim
+set mouse=a "can use mouse in vim
+set virtualedit=onemore "can start editing after the last character in the file
+set background=dark "turn background to dark 
