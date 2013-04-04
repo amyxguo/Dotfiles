@@ -1,0 +1,4 @@
+host eniac
+Hostname eniac.seas.upenn.edu
+User guox
+IdentityFile ~/.ssh/id_rsa
