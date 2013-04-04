@@ -1,5 +1,6 @@
 set tabstop=4 "set tab to 4 spaces
-imap ii <Esc> "map escape key to ii
+imap ii <Esc>
+"can't write comment after <Esc>, line 2 maps escape key to ii
 syntax on "turn on syntax highlighting
 set number "set line numbers
 set ruler "show where cursor is located in file
